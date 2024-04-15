@@ -69,8 +69,8 @@ const SearchWeather = () => {
           />
           <App />
           <h1 className="defaultCity">{weatherData.name}</h1>
-          <h2>{Math.round(weatherData.main.temp)}℃</h2>
-          <h2 className="temp">{weatherData.weather[0].description}</h2>
+          <h2 className="temp">{Math.round(weatherData.main.temp)}℃</h2>
+          <h2 className="descr">{weatherData.weather[0].description}</h2>
           <div className="description">
             <div className="col">
               <p>🌡️ Humidity: {Math.round(weatherData.main.humidity)}%</p>

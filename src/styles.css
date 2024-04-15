@@ -7,14 +7,20 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   max-width: 100vh;
   margin: 0 auto;
-  height: 480px;
+  height: 380px;
 }
 
-.App{
+h1{
   margin: 0;
   padding: 0;
-}
 
+}
+h2{
+  margin: 10px;
+}
+.App{
+  font-size: 10px;
+}
 ul {
   list-style: none;
 }
@@ -25,13 +31,16 @@ ul {
   font-size: 16px;
   border-radius: 5px;
   height: 30px;
+  box-shadow: 3px 5px rgba(26, 26, 26, 0.1);
+  
 }
 
 #searchButton {
   font-size: 16px;
   height: 35px;
   border-radius: 3px;
-  box-shadow: 3px 5px rgba(26, 26, 26, 0.1);
+  box-shadow: 5px 5px rgba(26, 26, 26, 0.1);
+  color: rgb(12, 133, 133);
 }
 
 .description {
@@ -59,8 +68,19 @@ ul {
   font-size: 10px;
 }
 
+.temp{
+  color: rgb(3, 105, 108);
+}
+.descr{
+  font-size: 15px;
+}
+.col{
+  font-size: 25px;
+  color: rgb(9, 64, 64);
+}
+
 .link {
-  margin-top: 3px;
+  margin-top: 8px;
 
 }
 
@@ -74,3 +94,4 @@ ul {
   text-decoration: underline;
   color: rgb(26, 126, 126);
 }
+
